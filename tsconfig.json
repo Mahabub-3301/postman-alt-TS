@@ -1,0 +1,14 @@
+
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",               // Required for pkg compatibility
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strict": true,
+    //"forceConsistentCasingInFileNames": true,
+    "types": ["node"]                   // <-- Tell TS this is a Node.js project
+  },
+  "include": ["src"]
+}
